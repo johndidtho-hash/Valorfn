@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment variables — never commit real secrets
+.env
+
+# SQLite database files
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+logs/
+*.log
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Build output (if added later)
+dist/
+build/
