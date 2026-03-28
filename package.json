@@ -1,0 +1,39 @@
+{
+  "name": "valorfn-fortnite-bot",
+  "version": "1.0.0",
+  "description": "High-end Fortnite companion Discord bot with premium features, invite tracking, and AI coaching",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "db:migrate": "node src/database/migrate.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "fortnite",
+    "gaming",
+    "companion",
+    "stats",
+    "cosmetics"
+  ],
+  "author": "ValorFN",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "axios": "^1.6.2",
+    "openai": "^4.20.1",
+    "sqlite3": "^5.1.6",
+    "dotenv": "^16.3.1",
+    "crypto-js": "^4.2.0",
+    "node-cron": "^3.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
